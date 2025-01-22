@@ -13,6 +13,9 @@ body{
     margin-right:150px ;
  border: 2px; 
   border-radius:10px;  
+  display: flex;
+  align-items: center;
+  height: 50px; /* Kutu yüksekliği */
  }
 .topbox a{
     text-decoration: none;
@@ -50,17 +53,18 @@ body{
     margin-left:33px ; 
 }
 .mainbox{
-margin-top: 220px;
+margin-top: 150px;
 margin-left: 100px;
 font-family: 'Arial',sans-serif;
 }
 .photo img {
   float: right;
-  margin-right: 250px;
-  max-width: 300px;
+  margin-right: 450px;
+  max-width: 400px;
   height: auto;
   margin-top:-250px ;
   border-radius:50% ;
+  
 }
 .buttonspecial {
   background-color:darkblue; /* Butonun ana arka plan rengi */
