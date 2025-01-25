@@ -1,0 +1,38 @@
+.top {
+    color: rgb(255, 153, 0); 
+    font-family: sans-serif; 
+    font-size: 25px; 
+}
+
+.orta_kutu {
+    font-family: sans-serif; 
+    font-size: 50px; 
+}
+
+.left_box { 
+    margin-left: 33px;
+    margin-top: 53px; 
+    display: flex; 
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.alt_kutu {
+    margin-top: 150px;
+}
+
+.right_box {
+    display: flex; 
+    justify-content: flex-end; 
+    align-items: flex-start; 
+    margin: 20px;
+}
+
+.right_box img {
+    max-width: 300px; 
+    height: auto;
+    border-radius: 8px; 
+   
+    margin: 0; 
+}
