@@ -3,55 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>websitesi</title>
+    <title>Websitesi</title>
     <link rel="stylesheet" href="style.css">
-    
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
- <div class="topfirst">
-    <div class="topbox">
-<a href="#">Home</a>
-<a href="http://127.0.0.1:5500/about.html">About</a>
-<a href="#">Skills</a>
-<a href="#">Education</a>
-<a href="#">Work</a>
-<a href="#">Exprerience</a>
-<a href="#">Contact</a>
-    </div>
- </div>
-      <div class="mainbox">
-   <h1><strong>Hi There,</strong> </h1>
-          <h1>  I'm Jigar <span class="orange">Sable</span></h1>
-      
-        <h2>I Am Into <span class="chocolate">Web Develop </span></h2>
-        <input type="submit" value="About Me" class="buttonspecial">
-     <div class="photo">
-         <img src="elsallayan.jpeg" alt="el_sallayan_adam">
-     </div>   
-     <div class="social-media">
-        <div class="facebook">
-            <a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
+
+    <!-- Üst Menü -->
+    <div class="topfirst">
+        <div class="topbox">
+            <a href="#">Home</a>
+            <a href="#general_box">About</a>
+            <a href="#">Skills</a>
+            <a href="#">Education</a>
+            <a href="#">Work</a>
+            <a href="#">Experience</a>
+            <a href="#">Contact</a>
         </div>
-        <div class="twitter">
-         <a href="https://twitter.com"><i class="fab fa-twitter"></i></div></a>
-       
-        <div class="instagram">
-            <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+    </div>
+
+    <!-- Ana İçerik -->
+    <div class="mainbox">
+        <h1><strong>Hi There,</strong></h1>
+        <h1>I'm Jigar <span class="orange">Sable</span></h1>
+        <h2>I Am Into <span class="chocolate">Web Development</span></h2>
+        <input type="submit" value="About Me" class="buttonspecial" onclick="location.href='#general_box';">
+
+        <!-- Profil Fotoğrafı -->
+        <div class="photo">
+            <img src="elsallayan.jpeg" alt="El Sallayan Adam">
         </div>
-<div class="google">
-    <a href="https://www.google.com"><i class="fab fa-google-plus-g"></i></a>
-</div>
-<div class="youtube">
-  <a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
-</div>
+
+        <!-- Sosyal Medya Butonları -->
+        <div class="social-media">
+            <div class="facebook"><a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a></div>
+            <div class="twitter"><a href="https://twitter.com"><i class="fab fa-twitter"></i></a></div>
+            <div class="instagram"><a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a></div>
+            <div class="google"><a href="https://www.google.com"><i class="fab fa-google-plus-g"></i></a></div>
+            <div class="youtube"><a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a></div>
+        </div>
     </div>
-    
-     </div>
+
+    <div class="general_box" id="general_box">
+        <!-- Sol Kutu (Metin İçeriği) -->
+        <div class="left_box">
+            <h3 class="top">How It Started</h3>
+            <h1 class="orta_kutu">
+                Our Dream <br>
+                is Global Learning <br>
+                Transformation
+            </h1>
+            <h6 class="alt_kutu">
+                Bu bir bilgilendirme metnidir. <br>
+                Bu sayfa daha önce yapmış olduğum sayfanın <br>
+                devamı niteliğindedir.
+            </h6>
+        </div>
+
+        <!-- Sağ Kutu (Resim ve İstatistikler) -->
+        <div class="right_box">
+            <img src="kule.jpg" alt="Kule Resmi">
+
+            <!-- İstatistik Kutuları -->
+            <div class="stats-container">
+                <div class="st">
+                    <h1>3.5</h1>
+                    <h2>YEARS EXPERIENCE</h2>
+                </div>
+                <div class="pt">
+                    <h1>23</h1>
+                    <h2>PROJECT CHALLENGE</h2>
+                </div>
+            </div>
+
+            <div class="second-stats">
+                <div class="kt">
+                    <h1>830+</h1>
+                    <h2>Undetermined Word</h2>    
+                </div>
+                <div class="dt">
+                    <h1>100K+</h1>
+                    <h2>SUBSCRIBER STUDENT</h2>
+                </div>
+            </div>
+        </div>
     </div>
-      
-    
+
 </body>
 </html>
+

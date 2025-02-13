@@ -1,96 +1,94 @@
-body{
-    background-image: url(arkaplan.jpg);
-
+body {
+  background-image: url(arkaplan.jpg);
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-.topbox
-{
-
-    display: flex;
-    gap: 25px;
-    justify-content: flex-end;
-    margin-left: auto;
-    margin-right:150px ;
- border: 2px; 
-  border-radius:10px;  
+.topbox {
   display: flex;
+  gap: 25px;
+  justify-content: flex-end;
+  margin-left: auto;
+  margin-right: 150px;
+  border: 2px;
+  border-radius: 10px;
   align-items: center;
-  height: 50px; /* Kutu yüksekliği */
- }
-.topbox a{
-    text-decoration: none;
-    font-size:23px ;
-   font-weight:900px ;
-   color: black; 
-   transition:color 0.3s ;
+  height: 50px;
+}
 
+.topbox a {
+  text-decoration: none;
+  font-size: 23px;
+  font-weight: 900px;
+  color: black;
+  transition: color 0.3s;
+}
 
-  }
-  .topbox a:hover{
-    color: blue;
-    text-decoration: underline;
-  } 
-  .topfirst{
-    background-color: bisque;
-    background-size:150px 50px ;
-    width: 100%; /* Genişlik */
-    height: 50px; /* Yükseklik */
-    padding: 20px 0; /* İç boşluk */
-    margin: 0; /* Dış boşluk yok */
-    padding: 12px 25px; /* Butonun iç boşlukları */
-    font-size: 16px; /* Yazı boyutu */
-    font-weight: bold; /* Yazı kalınlığı */
-    text-transform: uppercase; /* Yazıyı büyük harfe çevirir */
-  }
-.chocolate{
-    color: chocolate;
-} 
-.orange{
-    color: orange;
+.topbox a:hover {
+  color: blue;
+  text-decoration: underline;
 }
-.mainbox{
-    margin-top: 50px;
-    margin-left:33px ; 
+
+.topfirst {
+  background-color: bisque;
+  width: 100%;
+  height: 50px;
+  padding: 20px 0;
+  padding: 12px 25px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
-.mainbox{
-margin-top: 150px;
-margin-left: 100px;
-font-family: 'Arial',sans-serif;
+
+.chocolate {
+  color: chocolate;
 }
+
+.orange {
+  color: orange;
+}
+
+.mainbox {
+  margin-top: 150px;
+  margin-left: 100px;
+}
+
 .photo img {
   float: right;
   margin-right: 450px;
   max-width: 400px;
   height: auto;
-  margin-top:-250px ;
-  border-radius:50% ;
-  
-}
-.buttonspecial {
-  background-color:darkblue; /* Butonun ana arka plan rengi */
-  color: white; /* Yazı rengi */
-  border: none; /* Kenarlık yok */
-  padding: 12px 25px; /* Butonun iç boşlukları */
-  font-size: 16px; /* Yazı boyutu */
-  font-weight: bold; /* Yazı kalınlığı */
-  text-transform: uppercase; /* Yazıyı büyük harfe çevirir */
-  border-radius: 30px; /* Butonu ovalleştirir */
-  cursor: pointer; /* Mouse imlecini el yapar */
-  transition: all 0.3s ease; /* Hover için geçiş animasyonu */
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Hafif gölge ekler */
+  margin-top: -250px;
+  border-radius: 50%;
 }
 
-/* Hover efekti */
+.buttonspecial {
+  background-color: darkblue;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
 .buttonspecial:hover {
-  background-color: #45a049; /* Hover durumunda arka plan */
-  transform: scale(1.05); /* Hafif büyütme efekti */
-  box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.3); /* Gölgeyi derinleştirir */
+  background-color: #45a049;
+  transform: scale(1.05);
+  box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.3);
 }
-.social-media{
+
+.social-media {
   display: flex;
-margin-top:70px ;
+  margin-top: 70px;
 }
-.social-media a{
+
+.social-media a {
   margin: 10px;
   background-color: rgb(0, 0, 0);
   color: aqua;
@@ -102,6 +100,130 @@ margin-top:70px ;
   align-items: center;
   text-decoration: none;
 }
-.social-media .facebook a :hover{
-color: cornflowerblue;
+
+.general_box{
+  display: flex;
+  justify-content: space-between;
+  margin-top:188px ;
 }
+ .general_box .left_box,
+ .general_box .right_box{
+  margin-right: 180px;
+ }
+
+.left_box {
+  margin-left: 50px;
+  width: 500px;
+  height: 600px;
+}
+
+.top {
+  color: rgb(255, 153, 0);
+  font-size: 25px;
+}
+
+.orta_kutu {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.alt_kutu {
+  margin-top: 30px;
+  font-size: 16px;
+}
+
+.right_box {
+  position: relative;
+  text-align: center;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  width: 700px;
+}
+
+.right_box img {
+  width: 700px;
+  height: 350px;
+  border-radius: 16px;
+  display: block;
+  margin: 0 auto;
+}
+
+.stats-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  margin-top: 20px;
+}
+
+.st, .pt {
+  display: flex;
+  flex-direction: column;
+  background-color: #f1f1f1;
+  gap: 5px;
+  border-radius: 8%;
+  width: 320px;
+  height: 140px;
+  justify-content: center;
+}
+
+.st h1, .pt h1 {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 60px;
+}
+
+.st h2, .pt h2 {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.second-stats {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  margin-top: 20px;
+}
+
+.kt, .dt {
+  display: flex;
+  flex-direction: column;
+  background-color: #f1f1f1;
+  gap: 5px;
+  width: 320px;
+  height: 140px;
+  border-radius: 8%;
+}
+
+.kt h1, .dt h1 {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.kt h1 {
+  margin-left: 70px;
+  margin-bottom: 5px;
+}
+
+.dt h1 {
+  margin-left: 40px;
+  margin-bottom: 5px;
+}
+
+.kt h2, .dt h2 {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.pt, .dt {
+  margin-right: 120px;
+}
+
+@media screen and (max-width: 768px) 
+  .topbox {
+      display: block;
+      text-align: center;
+  }
+
+{
