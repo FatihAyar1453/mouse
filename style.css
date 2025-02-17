@@ -1,5 +1,5 @@
 body {
-  background-image: url(arkaplan.jpg);
+  background-image: url(images/background_image.jpg);
   font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
@@ -122,12 +122,12 @@ body {
   font-size: 25px;
 }
 
-.orta_kutu {
+.middle_box {
   font-size: 50px;
   font-weight: bold;
 }
 
-.alt_kutu {
+.under_box {
   margin-top: 30px;
   font-size: 16px;
 }
@@ -220,10 +220,11 @@ body {
   margin-right: 120px;
 }
 
-@media screen and (max-width: 768px) 
-  .topbox {
-      display: block;
+@media screen and (max-width: 768px) {
+  body {
+  
       text-align: center;
   }
+}
 
-{
+
