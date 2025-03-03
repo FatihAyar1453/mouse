@@ -55,7 +55,8 @@ body {
 }
 
 .photo img {
-  float: right;
+ position: relative;
+ right: -400px;
   margin-right: 450px;
   max-width: 400px;
   height: auto;
@@ -134,10 +135,11 @@ body {
 
 .right_box {
   position: relative;
-  text-align: center;
+  display: flex;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
   width: 700px;
+  justify-content: flex-end;
 }
 
 .right_box img {
@@ -220,11 +222,10 @@ body {
   margin-right: 120px;
 }
 
-@media screen and (max-width: 768px) {
-  body {
-  
-      text-align: center;
-  }
+.general_box {
+flex-wrap: wrap;
 }
-
+.left_box, .right_box {
+  flex: basis 300px ;
+}
 
